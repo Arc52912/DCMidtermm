@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="head">
+      <h2>Rate The Product of Realme</h2>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img style="width: 200px;" src="../assets/realme-GT-Master-Edition2.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Realme Product</h3>
+        <p>Realme GT Master Edition is equipped with a large vapor chamber having an area of 1729.8mm², combining with a super large heatsink of an area of 13217mm², covering 100% of core heat sources. This significantly reduces the temperature and keeps the phone in a high-performance state.</p>
+        <ngb-rating [(rate)]="currentRate"></ngb-rating>
+        <hr>
+        <pre>Rate: <b>{{currentRate}}</b> of 8</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
